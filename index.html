@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport"content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta name="author" content="Ahmed Yasser">
+    <title>NewYork</title>
+    <link rel="icon" href="logo.jpg" type="icon">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.27/esri/themes/dark/main.css"/>
+    <script src="https://js.arcgis.com/4.27/"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <div id="NewYork">
+      <div id="viewDiv">
+        <div id="titleDiv" class="esri-widget">New York Urban</div>
+      </div>
+      <div id="sliderContainer" class="esri-widget">
+        <span id="sliderValue"></span>
+        <div id="sliderInnerContainer">
+          <div id="slider"></div>
+        </div>
+        <div
+          id="playBtn"
+          class="esri-widget esri-widget--button toggle-button"
+        >
+          <div>
+            <span
+              class="toggle-button-icon esri-icon-play"
+              aria-label="play icon"
+            ></span>
+            Play
+          </div>
+          <div>
+            <span
+              class="toggle-button-icon esri-icon-pause"
+              aria-label="pause icon"
+            ></span>
+            Pause
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
